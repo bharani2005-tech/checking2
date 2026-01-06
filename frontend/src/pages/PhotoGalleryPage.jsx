@@ -10,10 +10,10 @@ const PhotoGalleryPage = () => {
 
   const photos = [
     {
-      id: 1,
-      url: 'https://images.unsplash.com/photo-1644665068900-a5c4e97364c8?w=600',
-      caption: 'Your beautiful smile 💕'
-    },
+    "id": 1,
+    "url": '/images/845947-dark-sword-wallpaper-top-free-dark-sword-background.jpg', // Correct path for public folder
+    "caption": "Your beautiful smile 💕"
+  },
     {
       id: 2,
       url: 'https://images.unsplash.com/photo-1644665069032-705983d4577b?w=600',

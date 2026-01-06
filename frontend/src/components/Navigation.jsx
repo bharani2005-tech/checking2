@@ -33,7 +33,7 @@ export const Navigation = () => {
               <Heart className="text-primary" size={32} fill="currentColor" />
             </motion.div>
             <span className="text-2xl font-bold text-gradient" style={{ fontFamily: 'Playfair Display' }}>
-              For My Love
+              Birthday wishes for my Queen
             </span>
           </motion.div>
 

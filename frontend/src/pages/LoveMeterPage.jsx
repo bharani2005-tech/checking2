@@ -174,7 +174,7 @@ export const LoveMeterPage = ({ onComplete }) => {
                 >
                   <h2 className="text-3xl font-bold text-primary mb-2">⚠️ WARNING ⚠️</h2>
                   <p className="text-xl font-semibold text-primary-foreground">
-                    She is dangerously cute!
+                    You are too cute!
                   </p>
                 </motion.div>
               </motion.div>
@@ -199,7 +199,7 @@ export const LoveMeterPage = ({ onComplete }) => {
                 className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-lg px-8 py-6 rounded-full shadow-glow transition-smooth"
               >
                 <Sparkles className="mr-2" />
-                See Her Photos
+                Click for Surprise 🤭 !!
               </Button>
             ) : null}
           </div>
