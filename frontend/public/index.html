@@ -19,6 +19,7 @@
         Learn how to configure a non-root public URL by running `npm run build`.
         -->
         <title>Birthday wishes</title>
+<<<<<<< HEAD
         <script src="https://assets.emergent.sh/scripts/emergent-main.js"></script>
         <!--
         These two scripts have been added for the Visual Edits, please do not edit or remove them
@@ -30,6 +31,11 @@
   }
 </script>
          
+=======
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+
+>>>>>>> f86f1b06229344cb7a004601e6f033155802fe80
     </head>
     <body>
         <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -111,5 +117,19 @@
                 person_profiles: "identified_only", // or 'always' to create profiles for anonymous users as well
             });
         </script>
+        <button onclick="netlifyIdentity.open()">Login / Signup</button>
+
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/dashboard.html";
+        });
+      }
+    });
+  }
+</script>
+
     </body>
 </html>
