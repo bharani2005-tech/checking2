@@ -155,21 +155,6 @@ const BirthdayLetterPage = () => {
                   Every smile of yours is my favorite view, every laugh of yours is my favorite sound.
                 </p>
 
-                <p>
-                  When I look at you, I see everything I've ever wanted. When I'm with you, I feel like I'm exactly where I belong. 
-                  You make ordinary moments extraordinary just by being there.
-                </p>
-
-                <p>
-                  Your kindness touches everyone around you. Your strength inspires me. Your love completes me. 
-                  You're not just my girlfriend, you're my best friend, my partner, my everything.
-                </p>
-
-                <p>
-                  On this special day, I want you to know how deeply you're loved, how incredibly special you are, 
-                  and how grateful I am that I get to celebrate every moment with you.
-                </p>
-
                 <p className="text-xl font-semibold text-center">
                   I promise to always cherish you, support you, make you laugh, and love you with everything I have.
                 </p>
@@ -180,10 +165,18 @@ const BirthdayLetterPage = () => {
                   transition={{ duration: 2, repeat: Infinity }}
                 >
                   <p className="text-3xl font-bold text-primary mb-2">
-                    Happy Birthday, My Beautiful Girl! 🎂
-                  </p>
-                  <p className="text-xl text-foreground">
-                    May this year bring you all the happiness you deserve.
+                    கண் எதிரில் நீ இல்லை 🥺.. <br></br>
+
+என் கனவிலும் நீ வரவில்லை 😣..<br></br>
+
+இரண்டிற்கும் இடையில்<br></br>
+
+உன்னை தேடவைக்கும்<br></br>
+
+
+என் மனதில் நீ இருக்கிறாய் ❤️..<br></br>
+<br></br>
+                   <b> Happy Birthday, My Beautiful Girl! 🎂</b>
                   </p>
                 </motion.div>
 

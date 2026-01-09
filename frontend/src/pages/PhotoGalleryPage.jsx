@@ -11,32 +11,32 @@ const PhotoGalleryPage = () => {
   const photos = [
     {
     "id": 1,
-    "url": '/images/845947-dark-sword-wallpaper-top-free-dark-sword-background.jpg', // Correct path for public folder
+    "url": '/images/image3.jpeg', // Correct path for public folder
     "caption": "Your beautiful smile 💕"
   },
     {
       id: 2,
-      url: 'https://images.unsplash.com/photo-1644665069032-705983d4577b?w=600',
+      url: '/images/image5.jpeg',
       caption: 'Love in every moment 💖'
     },
     {
       id: 3,
-      url: 'https://images.unsplash.com/photo-1674785445307-fd37dfe82a54?w=600',
+      url: '/images/image2.jpeg',
       caption: 'Together forever 🌸'
     },
     {
       id: 4,
-      url: 'https://images.unsplash.com/photo-1674785445280-706eadd47cf3?w=600',
+      url: '/images/image1.jpeg',
       caption: 'My precious one 🧸'
     },
     {
       id: 5,
-      url: 'https://images.unsplash.com/photo-1764870535900-81b83929d85c?w=600',
+      url: '/images/image6.jpeg',
       caption: 'You light up my world ✨'
     },
     {
       id: 6,
-      url: 'https://images.unsplash.com/photo-1764870535372-b6881ad1f88f?w=600',
+      url: '/images/image4.jpeg',
       caption: 'Forever mine 💝'
     }
   ];
