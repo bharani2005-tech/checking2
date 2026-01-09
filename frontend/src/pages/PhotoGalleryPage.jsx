@@ -51,9 +51,9 @@ const PhotoGalleryPage = () => {
           className="text-center mb-12"
         >
           <h1 className="text-5xl md:text-7xl font-bold mb-4" style={{ fontFamily: 'Playfair Display' }}>
-            <span className="text-gradient">Our Memories</span>
+            <span className="text-gradient"></span>
           </h1>
-          <p className="text-muted-foreground text-lg">Every photo tells our story 💕</p>
+          <p className="text-muted-foreground text-lg">Frame for my everything 💕</p>
         </motion.div>
 
         {/* Photo Gallery Grid */}
